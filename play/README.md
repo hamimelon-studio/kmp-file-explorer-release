@@ -9,6 +9,8 @@ Screenshots and the preview video for the Google Play listing (en-US). All conte
 | 10-inch tablet | `screenshots/tablet-10in/` | 2560 × 1600 |
 | Laptop mockup source (browser side, to frame) | `screenshots/laptop-mockup-sources/` | 1440 × 900 |
 | Android TV | `screenshots/tv/` | 1920 × 1080 |
+| Feature graphic | `graphics/feature-graphic-1024x500.png` | 1024 × 500 |
+| App icon (hi-res) | `graphics/icon-512.png` | 512 × 512 |
 | Preview video (uploaded to YouTube, linked from Play) | `preview-video/preview-30s.mp4` | 1080 × 1920, 29.4 s, no audio |
 
 All screenshots are 24-bit PNG with no alpha channel, as Play requires.
