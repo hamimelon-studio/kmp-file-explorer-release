@@ -21,14 +21,12 @@ Same order and captions as the App Store set (`../app-store/`).
 |---|---|---|
 | 1 | Every photo, straight to your own NAS | `01-backup-status.png` |
 | 2 | Set up once, in a minute | `02-nas-setup.png` |
-| 3 | Free. Private. No cloud. | `03-first-backup.png` (phone and 7-inch only, see below) |
+| 3 | Free. Private. No cloud. | `03-first-backup.png` |
 | 4 | Play straight from your NAS | `04-nas-video.png` |
 | 5 | Your photos on a map | `05-map.png` |
 | 6 | Jump to any year | `06-timeline.png` |
 | 7 | Send files to anyone — no app needed | `07-share-by-link.png` |
 | 8 | A real file manager, too | `08-explorer.png` |
-
-The 10-inch set has no shot 3 yet: on a landscape tablet the first-backup card overflows its dialog, so it is left out until that is fixed in the app. Play needs at least 4 tablet screenshots, so the 10-inch set is complete without it.
 
 `laptop-mockup-sources/04-share-page-browser-1440x900.png` (what the other person sees when they open a share link) is kept as a spare; it is not in the eight above.
 
