@@ -1,28 +1,36 @@
 # Google Play listing assets — Melon Explorer 1.0.0
 
-Screenshots and the preview video for the Google Play listing (en-US). All content shown is demo data: generated photos and videos, and made-up NAS addresses.
+Screenshots and the preview video for the Google Play listing (en-US). All content shown is demo data: generated photos and videos, and a stand-in NAS called "Home NAS".
 
 | Set | Folder | Size |
 |---|---|---|
 | Phone | `screenshots/phone/` | 1080 × 1920 |
 | 7-inch tablet | `screenshots/tablet-7in/` | 1200 × 1920 |
 | 10-inch tablet | `screenshots/tablet-10in/` | 2560 × 1600 |
-| Laptop mockup sources (browser side, to frame) | `screenshots/laptop-mockup-sources/` | 1440 × 900 |
+| Laptop mockup source (browser side, to frame) | `screenshots/laptop-mockup-sources/` | 1440 × 900 |
 | Android TV | `screenshots/tv/` | 1920 × 1080 |
-| Preview video (uploaded to YouTube, linked from Play) | `preview-video/preview-30s.mp4` | 1080 × 1920, 29.9 s, no audio |
+| Preview video (uploaded to YouTube, linked from Play) | `preview-video/preview-30s.mp4` | 1080 × 1920, 29.4 s, no audio |
+
+All screenshots are 24-bit PNG with no alpha channel, as Play requires.
 
 ## Shot list
 
+Same order and captions as the App Store set (`../app-store/`).
+
 | # | Caption | File |
 |---|---|---|
-| 1 | Back up every photo to your own computer | `01-web-backup-server.png` (browser side: `laptop-mockup-sources/01-web-backup-browser-1440x900.png`) |
-| 2 | Free. Private. No cloud. | `02-first-run-picker.png` |
-| 3 | Send files to anyone — no app needed | `03-share-by-link.png` |
-| 4 | They just open the link | `laptop-mockup-sources/04-share-page-browser-1440x900.png`, in a laptop frame |
+| 1 | Every photo, straight to your own NAS | `01-backup-status.png` |
+| 2 | Set up once, in a minute | `02-nas-setup.png` |
+| 3 | Free. Private. No cloud. | `03-first-backup.png` (phone and 7-inch only, see below) |
+| 4 | Play straight from your NAS | `04-nas-video.png` |
 | 5 | Your photos on a map | `05-map.png` |
 | 6 | Jump to any year | `06-timeline.png` |
-| 7 | Your NAS, home or away | `07-nas-connections.png` |
+| 7 | Send files to anyone — no app needed | `07-share-by-link.png` |
 | 8 | A real file manager, too | `08-explorer.png` |
+
+The 10-inch set has no shot 3 yet: on a landscape tablet the first-backup card overflows its dialog, so it is left out until that is fixed in the app. Play needs at least 4 tablet screenshots, so the 10-inch set is complete without it.
+
+`laptop-mockup-sources/04-share-page-browser-1440x900.png` (what the other person sees when they open a share link) is kept as a spare; it is not in the eight above.
 
 ## Android TV
 
@@ -35,4 +43,4 @@ Screenshots and the preview video for the Google Play listing (en-US). All conte
 
 ## Preview video
 
-`preview-video/preview-30s.mp4`: 29.9 s, 1080 × 1920 portrait, no audio, no captions. It runs: web backup (turning on the Wi-Fi backup server) → share by link (picking files, QR code) → photo map → the timeline (scrolling along the year axis and its story markers) → the file explorer and photo viewer.
+`preview-video/preview-30s.mp4`: 29.4 s, 1080 × 1920 portrait, 30 fps, no audio, no captions. It runs: NAS backup setup (pick the NAS, the folder, the layout, start) → the backup status card counting up → the first-backup card → a video played from the NAS → photo map → timeline → share by link → the file explorer and photo viewer.
