@@ -1,11 +1,12 @@
-# Melon — release material
+# Melon Realm — release material
 
-Public pages and store assets for **Melon: NAS Photo Backup** (Android and iOS), published by Hami Melon.
+Public pages and store assets for **Melon Realm: NAS Photo Backup** (Android and iOS), published by Hami Melon.
 
 | Page | Link to give the stores |
 |---|---|
 | Privacy policy | https://github.com/hamimelon-studio/kmp-file-explorer-release/blob/main/privacy.md |
 | Support | https://github.com/hamimelon-studio/kmp-file-explorer-release/blob/main/support.md |
+| Terms of use | https://github.com/hamimelon-studio/kmp-file-explorer-release/blob/main/terms.md |
 
 Everything to paste into both store consoles (listing text in six languages, release notes, Play declarations and Data safety, App Store privacy label, age rating and review notes, asset list, remaining steps): **`store-submission.html`** — open it in a browser; each paste-ready field has a Copy button.
 

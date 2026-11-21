@@ -1,9 +1,9 @@
-# Melon — Support
+# Melon Realm — Support
 
 **Email:** bhw8412@gmail.com
 **In the app:** Settings → Feedback (you can include your contact details if you want a reply)
 
-When you write, please include your phone model, the Melon version (shown at the bottom of the ⋮ menu) and what you were doing when the problem happened.
+When you write, please include your phone model, the Melon version (in About: tap your plan name, e.g. "Realm Citizen", in the ⋮ menu) and what you were doing when the problem happened.
 
 ## Common questions
 

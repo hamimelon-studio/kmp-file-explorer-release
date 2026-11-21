@@ -1,16 +1,16 @@
-# Privacy Policy — Melon
+# Privacy Policy — Melon Realm
 
-**Effective date:** 13 November 2026
+**Effective date:** 21 November 2026
 **Publisher:** Hami Melon
 **Contact:** bhw8412@gmail.com
 
-Melon (listed as "Melon: NAS Photo Backup") is a photo backup app and file manager for Android and iOS. This policy explains what information the app handles and where it goes.
+Melon Realm ("Melon"; listed as "Melon Realm: NAS Photo Backup") is a photo backup app and file manager for Android and iOS. This policy explains what information the app handles and where it goes.
 
 ## In short
 
 - **Your photos, videos and files never come to us.** Melon backs them up straight to the NAS (network storage) you choose, or moves them between your own devices on your own network.
 - **No account, no ads, no tracking.** Melon has no sign-in, shows no ads, and contains no advertising or analytics SDK.
-- **We only receive something when you choose to send it:** the feedback you write, or an anonymous "milestone" count if you turn on *Help improve Melon* (off by default).
+- **We only receive something when you choose to send it:** the feedback you write, a vote on a "What's coming" item, or an anonymous "milestone" count if you turn on *Help improve Melon* (off by default).
 
 ## Information that stays on your device or your own network
 
@@ -25,11 +25,17 @@ Melon (listed as "Melon: NAS Photo Backup") is a photo backup app and file manag
 
 ## Information we receive
 
-**Feedback (only when you send it).** When you submit feedback in Settings → Feedback we receive: your message, your star rating, the contact details you choose to type (optional), the app version, device model, operating-system version, platform and the time sent. We use it to answer you and to fix problems. It is stored in Google Cloud Firestore, which Google operates on our behalf.
+**Feedback (only when you send it).** When you submit feedback in Settings → Feedback & News we receive: your message, its category, your star rating, the email or other contact details you choose to type (optional, used only to reply to you), the app version, device model, operating-system version, platform and the time sent. We use it to answer you and to fix problems. It is stored in Google Cloud Firestore, which Google operates on our behalf.
+
+**Votes (only when you vote).** When you vote for an item under "What's coming" we receive the item and a random id the app made for this install, so one install counts once. The id is not linked to your device, your account (there is none) or your feedback.
 
 **Milestone counts (off by default).** If you turn on *Help improve Melon*, the app sends the name of a milestone when you first reach it (for example "first backup"), with the app version and platform. No photos, file names, device identifiers or contact details are sent. We use these counts to see whether the app works for people.
 
 We do not sell, rent or share this information with anyone, and we do not use it for advertising.
+
+## Purchases
+
+Paid plans are bought through Google Play or the App Store, which handle the payment under their own privacy policies. We never see your card or payment details. The app asks the store on your device which plan you own; nothing about your purchase is sent to us.
 
 ## Services your device contacts directly
 
@@ -38,9 +44,10 @@ Some features connect from your device to another service. These happen only whe
 | Feature | Service | What is sent |
 |---|---|---|
 | Look up place names online (you switch a catalogue's location source to OpenStreetMap) | OpenStreetMap Nominatim | The coordinates of the photos being named |
+| Film and TV details (you add your own free TMDB key) | The Movie Database (TMDB) | The titles and years read from your video file and folder names, with your key |
 | AI features you set up with your own API key | The AI provider you chose (for example OpenAI, Anthropic or Google) | The text or content you send to it, under your own account with that provider |
 | Playing a YouTube video embedded in a Markdown document you open | YouTube | What any web page embedding YouTube sends |
-| Rating Melon or opening a store link | Google Play or the App Store | What the store app receives when opened |
+| Rating Melon, buying or restoring a plan, or opening a store link | Google Play or the App Store | What the store receives when you use it |
 
 ## Permissions
 
@@ -58,7 +65,7 @@ Some features connect from your device to another service. These happen only whe
 
 Information on your device is deleted when you uninstall Melon. Files on your NAS stay there; Melon never deletes or overwrites them.
 
-Feedback and milestone counts are kept only as long as needed to answer and improve the app. To have your feedback deleted, email bhw8412@gmail.com with the approximate date you sent it (and the contact details you entered, if any) and we will delete it. Milestone counts carry nothing that identifies you.
+Feedback, votes and milestone counts are kept only as long as needed to answer and improve the app. To have your feedback deleted, email bhw8412@gmail.com with the approximate date you sent it (and the contact details you entered, if any) and we will delete it. Votes and milestone counts carry nothing that identifies you.
 
 ## Security
 
